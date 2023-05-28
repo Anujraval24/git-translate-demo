@@ -1,1 +1,140 @@
-{}
+{
+  "": {
+    " is first character": ". ist erster Charakter"
+  },
+  "%d star": {
+    "one": "%d Star",
+    "other": "%d Stars"
+  },
+  "%f star": {
+    "one": "%f Stern",
+    "other": "%f Sterne"
+  },
+  "%s cat": {
+    "one": "%s Katze",
+    "other": "%s Katzen"
+  },
+  "%s star": {
+    "one": "%s Star",
+    "other": "%s Stars"
+  },
+  "Empty": "Leer",
+  "Hello": "Hallo",
+  "Hello %s": "Hallo %s",
+  "Hello %s, how are you today?": "Hallo %s, wie geht es dir heute?",
+  "Hello %s, how are you today? How was your %s": {
+    "": "Hallo %s, wie geht es dir heute?"
+  },
+  "Hello {{name}}": "Hallo {{Name}}",
+  "Hello {{name}}, how was your %s?": "Hallo {{Name}}, wie war dein %s?",
+  "Hello {{{name}}}": "Hallo {{{Name}}}",
+  "Hi": "Hallo",
+  "Howdy": "Hallo",
+  "Standalone | 42 symbol somewhere | in the text | 1| 0": "Eigenständig | 42 Symbol irgendwo | im Text | 1 | 0",
+  "There is one monkey in the %%s": {
+    "one": "Es gibt einen Affen im %% s",
+    "other": "Es gibt %d Monkeys im %% s"
+  },
+  "There is one monkey in the %s": {
+    "one": "Es gibt einen Affen im %s",
+    "other": "Es gibt %d Monkeys in den %s"
+  },
+  "There is one monkey in the tree": {
+    "one": "Es gibt einen Affen im Baum",
+    "other": "Es gibt %D Monkeys im Baum"
+  },
+  "another": {
+    "nested": {
+      "extra": {
+        "deep": {
+          "example": {
+            "one": "Die Standardregel \"One\"",
+            "other": "[0] Eine Null -Regel | [2,5] zwei bis fünf (enthalten) und eine Catchall -Regel"
+          }
+        },
+        "lazy": {
+          "example": {
+            "other": "[0] Eine Null -Regel | [2,5] zwei bis fünf (enthalten) und eine Catchall -Regel"
+          }
+        },
+        "mustache": {
+          "example": "[0] Eine Null -Regel für {{me}} | [2,5] zwei bis fünf (enthalten) für {{me}} | und eine Catchall -Regel für {{me}}"
+        },
+        "mustacheprintf": {
+          "example": "[0] %S ist keine Regel für {{me}} | [2,5] %S ist zwischen zwei und fünf (enthalten) für {{me}} | und eine Catchall -Regel für {{me}}, um meine zu bekommen Zahl %s"
+        }
+      }
+    }
+  },
+  "cat": {
+    "one": "%s Katze",
+    "other": "%s Katzen"
+  },
+  "cats": {
+    "n": {
+      "one": "%s Katze",
+      "other": "%s Katzen"
+    }
+  },
+  "few sentences": {
+    " with ": {
+      "": ""
+    }
+  },
+  "format": {
+    "date": "MM/DD/JJJJ",
+    "time": "H: MM: ss a"
+  },
+  "greeting": {
+    "formal": "Hallo",
+    "informal": "Hallo",
+    "placeholder": {
+      "formal": "Hallo %s",
+      "informal": "Sein",
+      "loud": "Begrüßung.PlaceHolder.loud"
+    },
+    "plurals": {
+      "one": "Die Standardregel \"One\"",
+      "other": "[0] Eine Null -Regel | [2,5] zwei bis fünf (enthalten) und eine Catchall -Regel"
+    }
+  },
+  "last character is ": {
+    "": ""
+  },
+  "mftest": "In {Lang} dort {num, plural, eins ist einer für #} andere {andere für #}}",
+  "nested": {
+    "deep": {
+      "plural": {
+        "one": "Plural",
+        "other": "Pluralen"
+      }
+    },
+    "path": {
+      "sub": "verschachtelt.Path.sub"
+    }
+  },
+  "ordered arguments": "%2 $ s dann %1 $ s",
+  "ordered arguments with numbers": "%2 $ d dann %1 $ s dann %3 $ 0,2f",
+  "plurals from eternity": "[, 0] Das wurde lange zuvor geboren, aber nur LT 0",
+  "plurals in any order": {
+    "one": "Die Standardregel \"One\"",
+    "other": "[0] Eine Null -Regel | und eine Catchall -Regel | [2,5] zwei bis fünf (enthalten)"
+  },
+  "plurals to eternity": "[0,] das wird für immer dauern | Aber nur GT 0",
+  "plurals with intervals as string": {
+    "one": "Die Standardregel \"One\"",
+    "other": "[0] Eine Null -Regel | [2,5] zwei bis fünf (enthalten) und eine Catchall -Regel"
+  },
+  "plurals with intervals as string (excluded)": {
+    "one": "Die Standardregel \"One\"",
+    "other": "[0] eine Null -Regel |] 2,5 [zwei bis fünf (ausgeschlossen) | und eine Catchall -Regel"
+  },
+  "plurals with intervals in _other_ missing _one_": {
+    "other": "[0] Eine Null -Regel | [2,5] zwei bis fünf (enthalten) und eine Catchall -Regel"
+  },
+  "plurals with intervals in string (no object)": "[0] Eine Null -Regel | [2,5] zwei bis fünf (enthalten) und eine Catchall -Regel",
+  "repeated argument": "%1 $ S, %1 $ S, %1 $ s",
+  "should ignore \n standalone | mixed with \n new lines 42 | value - 42": "sollte ignorieren\n eigenständig | gemischt mit\n Neue Zeilen 42 | Wert - 42",
+  "tree": "Baum",
+  "weekend": "Wochenende"
+}
